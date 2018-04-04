@@ -5,9 +5,7 @@ $(document).ready(function() {
   var navi_casuali = (Math.floor(Math.random()*64)+1)
   navi.push(navi_casuali)
   }
-
-$('.nave').click(function(){
-  $('.nave').addClass('red').toggle
-})
-
-})
+var rossi=0
+var verdi=0
+var nave = $('.nave')
+console.log(nave)

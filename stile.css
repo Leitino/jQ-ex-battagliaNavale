@@ -4,6 +4,9 @@
   margin: 0;
 }
 body{
+  font-size: 2em;
+  text-align: center;
+  color:white;
   background-color: black;
 }
 
