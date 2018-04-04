@@ -2,8 +2,8 @@ $(document).ready(function() {
 
   var navi = [];
   for (var i = 0; i < 15; i++) {
-    //console.log(navi)
-    navi.push(Math.floor(Math.random()*64)+1)
+  var navi_casuali = (Math.floor(Math.random()*64)+1)
+  navi.push(navi_casuali)
   }
 
 $('.nave').click(function(){
